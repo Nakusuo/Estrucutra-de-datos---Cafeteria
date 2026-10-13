@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://github.com/Nakusuo"><img src="https://raw.githubusercontent.com/Nakusuo/Nakusuo/main/assets/covers/Estrucutra-de-datos---Cafeteria.svg" width="100%" alt="Estrucutra-de-datos---Cafeteria — Nakusu"/></a>
+</p>
+
 # Cafetería Central
 
 Sistema de gestión para una cafetería que hicimos en el curso de **Estructura de Datos**. Es una aplicación de escritorio en Java (Swing) donde se registran pedidos, clientes y baristas, se ven los horarios ocupados de la semana y queda un historial de todo lo que se hace.
@@ -51,13 +55,10 @@ Clientes y baristas se guardan en arreglos que duplican su tamaño cuando se lle
 
 ## Cómo correrlo
 
-El código está dentro de `cafeteria.zip`. Descomprímelo y:
-
-- **Con NetBeans:** abre la carpeta `cafeteria/cafeteria` como proyecto y dale a Run.
+- **Con NetBeans:** abre la carpeta del repo como proyecto y dale a Run.
 - **Desde la terminal** (con un JDK 17 o superior):
 
 ```bash
-cd cafeteria/cafeteria
 javac -encoding UTF-8 -d out $(find src -name "*.java")
 java -cp out cafeteria.main.Main
 ```
